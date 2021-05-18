@@ -3,12 +3,24 @@
 
 // 1. isHometown
 
-// Define your function here
+function isHometown(town) {
+    
+    if (town === 'San Francisco') {
+        return true;
+    }
+}
 
 
 // 2. getFullName
 
-// Define your function here
+function getFullName(firstName, lastName) {
+
+    const fullName =  `${firstName} ${lastName}`;
+
+    console.log(fullName)
+
+    return fullName;
+}
 
 
 // 3. calculateTotal

@@ -15,7 +15,7 @@ function everyOtherItem(items) {
 
   for (const idx in items) {
     if (idx % 2 === 0) {
-      result.push(items[idx]);
+      result.push(items[i]);
     }
   }
 
